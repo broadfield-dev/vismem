@@ -12,7 +12,10 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/broadfield-dev/vismem',
     packages=find_packages(),
-    install_requires=requirements,
+    install_requires=[
+            'numpy',
+            'pillow',
+        ] 
     include_package_data=True,
     classifiers=[
         'Programming Language :: Python :: 3.8',
